@@ -3,6 +3,7 @@
 cd back
 python -m venv .venv
 .venv\Scripts\activate
+pip install -r requirements.txt
 fastapi run
 ```
 
